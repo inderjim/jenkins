@@ -1,5 +1,9 @@
-project(Demo)
+cmake_minimum_required(VERSION 3.1)
 
-cmake_minimum_required(VERSION 3.0)
+project(hello_world)
 
-add_executable(Demo main.c)
+add_executable(hello_world src/main.c)
+
+install(TARGETS hello_world)
+
+install(FILES src/main.c DESTINATION src)
