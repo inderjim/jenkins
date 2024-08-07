@@ -1,4 +1,5 @@
-project(HelloWorld)
+project(Demo)
+
 cmake_minimum_required(VERSION 3.0)
 
-add_executable(hello_world main.cpp)
+add_executable(Demo main.c)
