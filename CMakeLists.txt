@@ -1,9 +1,7 @@
 cmake_minimum_required(VERSION 3.1)
 
-project(hello_world)
+project(demo)
 
-add_executable(hello_world src/main.c)
+enable_language(C)
 
-install(TARGETS hello_world)
-
-install(FILES src/main.c DESTINATION src)
+add_subdirectory(common)
