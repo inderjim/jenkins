@@ -1,6 +1,6 @@
 if [ ! -d "my-venv" ]; then
 apt install pipx
-python -m venv my-venv
+python3 -m venv my-venv
 my-venv/bin/pip install conan
 fi
 
